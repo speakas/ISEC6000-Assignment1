@@ -4,9 +4,8 @@ kubectl setup for saleor microservice
 ![Alt text for image1](create-project.PNG)
 
 ![Alt text for image1](enable-API-for-kubernetes.PNG)
-![Alt text for image1](created-clustert.PNG)
+![Alt text for image1](created-luster.PNG)
 
-![Alt text for image1](created-clustert.PNG)
 
 
 
