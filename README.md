@@ -69,3 +69,4 @@ kubectl get service hello-server
 port
 
     ![Create Autopilot Cluster](deploy-expose.PNG)
+  ![Create Autopilot Cluster](hello.PNG)
