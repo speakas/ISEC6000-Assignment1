@@ -40,6 +40,32 @@ Follow the steps below to set up a kubectl environment on Google Cloud:
 
     ![Create Autopilot Cluster](console-connect.PNG)
 
-  
+  - This will allow you to deploy applications to the cluster.
+ 
+  ### 5. Create deployment and expose it
+- To deploy an application, run this command:
+```bash
+kubectl create deployment hello-server \
+--image=us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+```
+
+-To expose your application, run the following command:
 
 
+```bash
+kubectl expose deployment hello-server \
+--type LoadBalancer \
+--port 80 \
+--target-port 8080
+```
+
+
+- Tp inspect the running Pods by using kubectl get pods:
+```bash
+kubectl get pods
+kubectl get service hello-server 
+```
+- View the application from your web browser by using the external IP address with the exposed
+port
+
+    ![Create Autopilot Cluster](deploy-expose.PNG)
