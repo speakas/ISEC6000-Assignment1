@@ -1,10 +1,32 @@
 # ISEC6000-Assignment1
-kubectl setup for saleor microservice
 
-![Alt text for image1](create-project.PNG)
+## Setting up a kubectl environment for the Saleor microservice
 
-![Alt text for image1](enable-API-for-kubernetes.PNG)
-![Alt text for image1](created-luster.PNG)
+Follow the steps below to set up a kubectl environment on Google Cloud:
+
+### 1. Create a New Project on Google Cloud
+
+- Navigate to the Google Cloud Console.
+- Click on the "Project" dropdown at the top and select "New Project".
+- Provide a name for your project and create it.
+
+    ![Create Project](create-project.PNG)
+
+### 2. Enable Kubernetes API for the Project
+
+- In the left sidebar, navigate to `Kubernetes Engine`.
+- If prompted, enable the Kubernetes API for your project.
+
+    ![Enable Kubernetes API](enable-API-for-kubernetes.PNG)
+
+### 3. Create a Kubernetes Cluster on Autopilot
+
+- In the `Kubernetes Engine` section, go to `Clusters`.
+- Click on `Create Cluster`.
+- Choose the "Autopilot" mode for your cluster.
+- Fill in the desired settings and click "Create".
+
+    ![Create Autopilot Cluster](created-cluster.PNG)
 
 
 
