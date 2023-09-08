@@ -36,6 +36,7 @@ Follow the steps below to set up a kubectl environment on Google Cloud:
   
 - Open the console and authenticate the console
 - Paste the command into the console
+- This will allow you to interact with the cluster
 
     ![Create Autopilot Cluster](console-connect.PNG)
 
