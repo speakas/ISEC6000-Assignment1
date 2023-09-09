@@ -1,6 +1,6 @@
 ### ISEC6000 Assignment 1 Task 2 by Adam Abdul Razak 17053473
 
-## Setting up a kubectl environment for the Saleor microservice
+## Setting up a kubectl environment
 
 Follow the steps below to set up a kubectl environment on Google Cloud:
 
